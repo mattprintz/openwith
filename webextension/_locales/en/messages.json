@@ -75,20 +75,19 @@
 		"message": "Open With is funded by user donations."
 	},
 	"extensionDescription": {
-		"message": "Quickly test out your web pages in Chrome, Edge, Safari, or Opera."
+		"message": "Automatically open Google Meet pages in Chrome for optimal Meet experience."
 	},
 	"extensionDescription_chrome": {
-		"message": "Quickly test out your web pages in Edge, Firefox, Safari, or Opera."
+		"message": "Automatically open Google Meet pages in Chrome for optimal Meet experience."
 	},
 	"extensionDescription_opera": {
-		"message": "Quickly test out your web pages in Chrome, Edge, Firefox, or Safari."
+		"message": "Automatically open Google Meet pages in Chrome for optimal Meet experience."
 	},
 	"extensionLongDescription": {
-		"message": "Quickly test out your web pages in Chrome, Edge, Safari, or Opera. Open With opens the current page in your other browsers with just two clicks."
+		"message": "Automatically open Google Meet pages in Chrome for optimal Meet experience."
 	},
 	"extensionName": {
-		"description": "Please include this string, even if you keep the English version.",
-		"message": "Open With"
+		"message": "Meet in Chrome"
 	},
 	"icon_brave": {
 		"message": "Brave"

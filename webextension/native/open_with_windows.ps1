@@ -44,7 +44,7 @@ call "powershell" -file "
 			Set-Item -Path $registry_location -Value $manifest_location -Force
 			$browser_manifest = $manifest.Clone()
 			if ($browser -eq 'firefox') {
-				$browser_manifest['allowed_extensions'] = @('openwith@darktrojan.net')
+				$browser_manifest['allowed_extensions'] = @('meetinchrome@noharmpun.com')
 			} else {
 				$browser_manifest['allowed_origins'] = @('chrome-extension://cogjlncmljjnjpbgppagklanlcbchlno/')
 			}

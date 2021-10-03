@@ -67,7 +67,7 @@ def install():
 	for browser, registry_location in registry_locations.items():
 		browser_manifest = manifest.copy()
 		if browser in ['firefox', 'thunderbird']:
-			browser_manifest['allowed_extensions'] = ['openwith@darktrojan.net']
+			browser_manifest['allowed_extensions'] = ['meetinchrome@noharmpun.com']
 		else:
 			browser_manifest['allowed_origins'] = [
 				'chrome-extension://cogjlncmljjnjpbgppagklanlcbchlno/',  # Chrome
@@ -151,7 +151,7 @@ if __name__ == '__main__':
 			sys.exit(0)
 
 	allowed_extensions = [
-		'openwith@darktrojan.net',
+		'meetinchrome@noharmpun.com',
 		'chrome-extension://cogjlncmljjnjpbgppagklanlcbchlno/',
 		'chrome-extension://fbmcaggceafhobjkhnaakhgfmdaadhhg/',
 	]

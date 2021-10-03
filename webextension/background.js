@@ -12,6 +12,28 @@ chrome.commands.onCommand.addListener(function(command) {
 	});
 });
 
+
+browser.webRequest.onBeforeRequest.addListener(
+	function (details) {
+		if (details.type === "main_frame") {
+			let tab = browser.tabs.get(details.tabId);
+			open_browser(browsers[0].id, details.url);
+			browser.tabs.remove(details.tabId);
+		}
+		return {
+			"cancel": true
+		}
+	},
+	{
+		"urls": [
+			"*://meet.google.com/*"
+		]
+	},
+	[
+		"blocking"
+	]
+);
+
 function get_target_url(info) {
 	if (info.linkUrl) {
 		return info.linkUrl;
